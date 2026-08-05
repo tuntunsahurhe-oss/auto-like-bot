@@ -7,9 +7,9 @@ from datetime import datetime
 from apscheduler.schedulers.background import BackgroundScheduler
 
 # --- CONFIGURATION ---
-TOKEN = 'YOUR_BOT_TOKEN'
-ADMIN_IDS = [123456789]  # আপনার আইডি দিন
-GROUP_ID = -100123456789 # আপনার গ্রুপ আইডি দিন
+TOKEN = '8307741402:AAEPJN82CkJund-ER1tqe5oMMcZ8RnYkdw4'
+ADMIN_IDS = [6417430059]  # আপনার আইডি দিন
+GROUP_ID = -1003982689528 # আপনার গ্রুপ আইডি দিন
 API_URL = "https://like-api-frexy.onrender.com/like"
 JWT_URL = "https://like-api-frexy.onrender.com/jwt"
 DB_FILE = 'database.json'
