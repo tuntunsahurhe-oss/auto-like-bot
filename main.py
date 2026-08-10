@@ -61,7 +61,7 @@ AUTO_LIKE_MINUTE = 50
 
 # Video URLs (GitHub hosted) - ONLY 3 VIDEOS
 VIDEOS = {
-    "success": "https://raw.githubusercontent.com/yourusername/yourrepo/main/success.mp4",
+    "success": "https://sharevideo.org/Yg8vtFojdNJJjfl/watch",
     "zero_likes": "https://raw.githubusercontent.com/yourusername/yourrepo/main/zero.mp4",
     "error": "https://raw.githubusercontent.com/yourusername/yourrepo/main/error.mp4"
 }
