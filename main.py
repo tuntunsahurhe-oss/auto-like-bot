@@ -39,14 +39,14 @@ from aiohttp import web
 # CONFIGURATION - EDIT THESE VALUES
 # ═══════════════════════════════════════════════════════════════════
 
-BOT_TOKEN = "8535184265:AAEsBNmUY1I6GBuQd33yAGjCW-Cmk1WPWJ4"  # Get from @BotFather
+BOT_TOKEN = "8307741402:AAFp_k2nOq_hKheUOONX6e0kCcmTL6AstxY"  # Get from @BotFather
 ADMIN_ID = 6417430059  # Your Telegram numeric ID
 
 # API Configuration
 API_BASE = "https://like-api-frexy.up.railway.app"
 
 # ALLOWED GROUP - Bot will ONLY work in this group
-ALLOWED_GROUP_ID = -1003765179070  # Replace with your group ID
+ALLOWED_GROUP_ID = -1003982689528  # Replace with your group ID
 
 # REQUIRED CHANNELS - EMPTY (No verification)
 REQUIRED_CHANNELS = []
