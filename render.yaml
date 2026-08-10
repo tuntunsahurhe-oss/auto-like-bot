@@ -1,6 +1,15 @@
 services:
-  - type: worker
-    name: like-bot
+  - type: web
+    name: frexy-auto-like-bot
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python main.py
+    plan: free
+    envVars:
+      - key: BOT_TOKEN
+        value: 8535184265:AAEsBNmUY1I6GBuQd33yAGjCW-Cmk1WPWJ4
+      - key: ADMIN_ID
+        value: 6417430059
+      - key: PORT
+        value: 8080
+    healthCheckPath: /
