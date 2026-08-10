@@ -61,9 +61,9 @@ AUTO_LIKE_MINUTE = 50
 
 # Video URLs (GitHub hosted) - ONLY 3 VIDEOS
 VIDEOS = {
-    "success": "https://sharevideo.org/Yg8vtFojdNJJjfl/watch",
-    "zero_likes": "https://os.md/CWA3",
-    "error": "https://os.md/CMWB"
+    "success": "https://raw.githubusercontent.com/yourusername/yourrepo/main/success.mp4",
+    "zero_likes": "https://raw.githubusercontent.com/yourusername/yourrepo/main/zero.mp4",
+    "error": "https://raw.githubusercontent.com/yourusername/yourrepo/main/error.mp4"
 }
 
 # Valid Free Fire regions
@@ -1488,8 +1488,12 @@ async def run_auto_like(application):
 # ═══════════════════════════════════════════════════════════════════
 
 async def main_async():
-    # Build application
-    application = Application.builder().token(BOT_TOKEN).build()
+    # Build application with proper settings for Python 3.13
+    application = (
+        Application.builder()
+        .token(BOT_TOKEN)
+        .build()
+    )
 
     # Command handlers
     application.add_handler(CommandHandler("start", start_cmd))
@@ -1515,7 +1519,12 @@ async def main_async():
     # Initialize and start Telegram Bot
     await application.initialize()
     await application.start()
-    await application.updater.start_polling(allowed_updates=Update.ALL_TYPES)
+    
+    # Start polling with proper settings
+    await application.updater.start_polling(
+        allowed_updates=Update.ALL_TYPES,
+        drop_pending_updates=True
+    )
     logger.info("Telegram Bot polling started.")
 
     # Render Port Binding Setup
