@@ -62,7 +62,7 @@ AUTO_LIKE_MINUTE = 50
 # Video URLs (GitHub hosted) - ONLY 3 VIDEOS
 VIDEOS = {
     "success": "https://sharevideo.org/Yg8vtFojdNJJjfl/watch",
-    "zero_likes": "https://os.md/TFF2V",
+    "zero_likes": "https://os.md/CWA3",
     "error": "https://os.md/CMWB"
 }
 
