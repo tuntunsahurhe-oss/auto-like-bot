@@ -7,7 +7,7 @@ services:
     plan: free
     envVars:
       - key: BOT_TOKEN
-        value: 8535184265:AAEsBNmUY1I6GBuQd33yAGjCW-Cmk1WPWJ4
+        value: 8307741402:AAFp_k2nOq_hKheUOONX6e0kCcmTL6AstxY
       - key: ADMIN_ID
         value: 6417430059
       - key: PORT
