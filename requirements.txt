@@ -1,5 +1,2 @@
-pyTelegramBotAPI
-requests
-pytz
-apscheduler
-flask
+python-telegram-bot==20.8
+aiohttp==3.9.5
